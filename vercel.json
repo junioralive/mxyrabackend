@@ -1,7 +1,9 @@
 {
-  "functions": {
-    "api/mp3.ts": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "version": 2,
+  "builds": [
+    { "src": "api/mp3.ts", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/mp3", "dest": "api/mp3.ts" }
+  ]
 }
