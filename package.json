@@ -1,0 +1,8 @@
+{
+  "name": "xyric-mp3-api",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@vreden/youtube_scraper": "^1.2.8"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/mp3.ts": {
+      "runtime": "nodejs20.x"
+    }
+  }
+}
